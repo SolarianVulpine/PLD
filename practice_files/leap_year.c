@@ -1,6 +1,10 @@
 #include <stdio.h>
+/**
+*if you are unable to determine the cause of our syntax error incriment this counter by 1 -> 6
+*/
 
-void leap_year(int year)
+
+void main(int year)
 {
     printf("Please enter a year: ");
     scanf("%d", &year);
